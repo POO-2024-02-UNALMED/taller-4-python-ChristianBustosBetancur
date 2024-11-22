@@ -6,7 +6,7 @@ class Grupo:
     def __init__(self, grupo="grupo predeterminado", asignaturas=None, estudiantes=[]):
         self._grupo = grupo
 
-        if asignatura is None:
+        if asignaturas is None:
             asignaturas = []
 
         self._asignaturas = asignaturas
